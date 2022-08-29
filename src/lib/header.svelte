@@ -5,8 +5,8 @@
 <style>
     header {
         height: var(--headerHeight);
-        background: rgb(57, 138, 195);
-        color: #fff;
+        background: var(--headerBackground);
+        color: var(--headerColor);
         display: grid;
         place-content: center;
     }
