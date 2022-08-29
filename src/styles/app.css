@@ -5,17 +5,21 @@
 }
 
 :root {
-
-    --headerHeight: 40px;
+	--white: #f2f2f1;
+	--black: #222;
+	--textColor: var(--black);
+	--bodyBackground: var(--white);
+	--headerColor: var(--white);
+	--headerBackground: rgb(57, 138, 195);
+  --headerHeight: 40px;
 }
 
 body {
-    margin: 0;
     font-family: sans-serif;
-    color: #444;
+    color: var(--textColor);
+		background: var(--bodyBackground);
 }
 
 .wrap {
     height: calc(100vh - var(--headerHeight));
-    background: #f2f2f1;
 }
