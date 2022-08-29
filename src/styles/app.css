@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    --headerHeight: 40px;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: #444;
+}
+
+.wrap {
+    height: calc(100vh - var(--headerHeight));
+    background: #f2f2f1;
+}
